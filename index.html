@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Telephone Number Validator</title>
+  </head>
+  <body>
+    <div id="heading">
+      <h1>Telephone Number Validator</h1>
+    </div>
+    <div class="iphone">
+      <div class="screen">
+        <div id="nav-bar">
+          <p>AT&T</p>
+          <ul>
+            <li>📶</li>
+            <li>🔋</li>
+          </ul>
+        </div>
+        <label for="phone">Enter Telephone Number:</label><br />
+        <input
+          type="tel"
+          id="user-input"
+          placeholder="Enter phone number..."
+          required
+        /><br />
+        <div id="results-div"></div>
+        <div id="buttons">
+          <button id="check-btn">Check</button>
+          <button id="clear-btn">Clear</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
